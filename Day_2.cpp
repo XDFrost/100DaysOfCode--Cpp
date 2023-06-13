@@ -3,7 +3,6 @@
 using namespace std;
 
 
-
 //SWITCH CASE
 // Print day based on day number
 
