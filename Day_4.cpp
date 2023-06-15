@@ -12,7 +12,7 @@ using namespace std;
         // 2. Local scope   -   When the variables are inside of any function or any block; Can be accessed only inside of the block; Unknown entities outside the block 
 
 
-/**
+
 string name = "Luffy";          // Global variable
 
 void fun() {
@@ -30,7 +30,7 @@ int main() {
     return 0;
     
 }
-**/
+
 
 
 
@@ -146,7 +146,7 @@ int main() {
 }
 **/
 
-
+/**
 void fun(int *x) {
 
     cout<<x<<endl;
@@ -160,7 +160,7 @@ int main() {
     return 0;
 
 }
-
+**/
 
 // If we use & operator in the RHS, we'll be able to get address of x
 // If we use & operator in the LHS, it'll become a reference variable
